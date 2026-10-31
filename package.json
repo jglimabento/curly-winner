@@ -4,7 +4,7 @@
   },
   "name": "testezinho",
   "version": "1.0.0",
-  "description": "��#\u0000 \u0000c\u0000u\u0000r\u0000l\u0000y\u0000-\u0000w\u0000i\u0000n\u0000n\u0000e\u0000r\u0000\r\u0000 \u0000",
+  "description": "Cypress practice project covering REST API assertions and a web login flow",
   "main": "index.js",
   "dependencies": {
     "aggregate-error": "^3.1.0",
@@ -169,9 +169,16 @@
     "yauzl": "^2.10.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "cypress run",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "cypress",
+    "api-testing",
+    "e2e",
+    "qa-practice"
+  ],
+  "author": "João Guilherme Lima Bento",
   "license": "ISC"
 }
